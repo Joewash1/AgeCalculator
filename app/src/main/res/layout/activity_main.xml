@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lakers_pueple"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="@color/lakers_gold"
+        android:id="@+id/display"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/age"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        style="@style/TextAppearance.MyTheme.Headline1"
+        android:text="Shazaam will guess your birth year"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@id/age"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textbox"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:hint="Enter Age Here"
+        android:text="Enter Your Age Here"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@id/cal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/display" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cal"
+        style="@style/calButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Your Age"
+        app:cornerRadius="35dp"
+        android:layout_marginBottom="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

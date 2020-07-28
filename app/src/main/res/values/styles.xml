@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="buttons" parent="Widget.MaterialComponents.Button">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">25dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+    </style>
+    <style name="topbuttons" parent="buttons">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+    <style name="sidebuttons" parent="buttons">
+        <item name="backgroundTint">@color/dark_grey</item>
+        <item name="android:textColor">@color/red_background</item>
+
+
+
+
+    </style>
+</resources>
+
+

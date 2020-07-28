@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Color-->
+
+    <!--Material uses an organized approach to applying color by -->
+    <!--providing a set of attributes which define semantically named -->
+    <!--colors for generalized UI concepts such as backgrounds, -->
+    <!--surfaces, type and icons. Using these attributes throughout -->
+    <!--your app makes it easy to change a single color, or the -->
+    <!--entire theme, and have those changes cascade through the interface.-->
+
+    <!--Color is customized by overriding Material Components color -->
+    <!--attributes with custom color values. In this project, your theme’s -->
+    <!--color attributes are already overridden with default values -->
+    <!--defined in this file, colors.xml. This file holds the color palette -->
+    <!--for both light and dark themes of the Material baseline (default) -->
+    <!--theme. Next to each color is a comment describing the semantic theme -->
+    <!--color attribute which the palette color maps to.-->
+
+    <!--Replace the colors here with your own brand's palette and ensure -->
+    <!--they are applied as desired in both light and dark theme -->
+    <!--(values/themes.xml and values-night/themes.xml). For more -->
+    <!--information on color palettes and their application color -->
+    <!--theme attributes, see https://www.youtube.com/watch?v=Owkf8DhAOSo-->
+
+    <!--Color palette-->
+    <color name="light_blue">#68a0b0</color>
+    <color name="red">#e61c00</color>
+    <color name="green">#008000</color>
+    <color name="lakers_pueple">#542583</color>
+    <color name="lakers_gold">#fdb827</color>
+
+    <color name="primary_dark">#0009ff</color> <!--Color primary (dark)-->
+    <color name="primary_light">#00301c</color> <!--Color primary (light)-->
+    <color name="primary_variant_dark">#68a0b0</color> <!--Color primary variant (dark)-->
+    <color name="primary_variant_light">#13ce07</color> <!--Color primary variant (light)-->
+
+    <color name="secondary_dark">#eb09ce</color> <!--Color secondary-->
+    <color name="secondary_light">#d6e308</color> <!--Color secondary variant-->
+
+    <color name="error_d">#007887</color> <!--Color error (dark)-->
+    <color name="error_l">#e61c00</color> <!--Color error (light)-->
+
+    <!--Color surface (light),-->
+    <color name="surface_l">#abfdff</color>
+    <!--color on error (light), -->
+    <color name="color_on_error_l">#0009ff</color> <!--Color primary (dark)-->
+    <color name="color_on_primary_l">@color/white</color>
+    <!--Color primary (dark)-->
+    <!--color on surface (dark), color on surface (dark)-->
+    <color name="redTile_outer">#ffffff</color>
+
+    <color name="surface_d">#00301c</color> <!--Color surface (dark)-->
+    <!--Color on secondary (light), color on background (light),-->
+    <color name="white">#ffffff</color>
+    <!--color on surface (light)-->
+    <color name="black">#000000</color>
+    <color name="dark_grey">#878787</color>
+    <color name="red_background">#e43f3f</color>
+    <color name="red_button">#cc1d1d</color>
+
+</resources>
